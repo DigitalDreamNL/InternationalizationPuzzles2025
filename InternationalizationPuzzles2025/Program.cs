@@ -2,6 +2,7 @@
 using InternationalizationPuzzles2025.Puzzles.Puzzle1;
 using InternationalizationPuzzles2025.Puzzles.Puzzle2;
 using InternationalizationPuzzles2025.Puzzles.Puzzle3;
+using InternationalizationPuzzles2025.Puzzles.Puzzle4;
 using Spectre.Console;
 
 Console.WriteLine("Internationalization Puzzles 2025");
@@ -11,6 +12,7 @@ var puzzles = new Dictionary<string, Type>
     { nameof(Puzzle1), typeof(Puzzle1) },
     { nameof(Puzzle2), typeof(Puzzle2) },
     { nameof(Puzzle3), typeof(Puzzle3) },
+    { nameof(Puzzle4), typeof(Puzzle4) },
 };
 
 var selectedPuzzleName = AnsiConsole.Prompt(
